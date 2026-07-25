@@ -1,0 +1,41 @@
+.home-page {
+  padding: 2rem 1.5rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-page__hero {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 2rem 1rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(17, 24, 39, 0.95));
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.home-page__hero h1 {
+  margin-bottom: 0.5rem;
+  color: #f9fafb;
+}
+
+.home-page__hero p {
+  color: #d1d5db;
+}
+
+.home-page__status {
+  text-align: center;
+  margin-top: 1rem;
+  color: #d1d5db;
+}
+
+.home-page__status--error {
+  color: #fca5a5;
+}
+
+.home-page__results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
